@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="css/pedido.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="bar">
+        <ul id="superior">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="us.html">Nosotros</a></li>
+            <li><a href="pedido.html">Haz tu pedido</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+
+        </ul>
+
+    </div>
+
+    <h1 id="title">La Real</h1>
+    <h2 id="subtitle">Pastelería</h2>
+
+    <p class="text">Agradecemos tu confiaza, nos sentimos emocionados 
+        por este pedido y esperamos ayudar a que tu evento 
+        sea inolvidable
+    </p>
+
+    <p class="text">
+        Indícanos tus datos y el pedido que deseas, 
+    </p>
+    <section id="formulario">
+        <form action="algo.js">
+            <label for="name">Nombre</label>
+            <input type="text" id="nombre" required> 
+            <br>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="tel" maxlength="10" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email">
+            <br>
+            <br><br>
+            <label for="selection">Selecion de sabores</label>
+            <br>
+            <div>
+                <input type="checkbox" value="Vainilla">Vainilla
+                <input type="checkbox" value="Chocolate">Chocolate
+                <input type="checkbox" value="Fresa">Fresa
+                <input type="checkbox" value="Limón">Limón
+                <input type="checkbox" value="Mermelada">Mermelada
+                <input type="checkbox" value="Durazno">Durazno
+                <input type="checkbox" value="Frutos">Frutos
+                <input type="checkbox" value="rojos">rojos
+                <input type="checkbox" value="Kinder">Kinder
+                <input type="checkbox" value="Ganache">Ganache
+                
+            </div>
+            <br>
+        <div>
+            <br><br>
+            <label for="adornos">Seleción de adornos</label>
+            <br>
+                <input type="radio" name="adornos" value="Flores">Flores
+                <input type="radio" name="adornos" value="Pedrería">Pedrería
+                <input type="radio" name="adornos" value="colores">Juego de colores
+                <input type="radio" name="adornos" value="mexicanos">Bordados mexicanos
+                <input type="radio" name="adornos" value="Frutales">Frutales
+                <input type="radio" name="adornos" value="personalizados">Adornos personalizados
+        </div>
+        <br><br><br>
+            <label for="box">Especificaciones del pedido</label><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Detalla las especificaciones de tu pedido"></textarea>
+                <br>
+            
+        <input type="submit" name="ok" id="submit">
+
+        </form>
+
+
+    </section>
+
+    <div id="under" style="text-align: center;">
+        <p style="text-align: center; ">
+            c Todos los derechos reservados y esas weas
+        </p>
+
+    </div>
+
+</body>
+</html>

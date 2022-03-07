@@ -1,0 +1,95 @@
+body{
+    background: radial-gradient(circle, #a474a5, #f3f3f3);
+    
+}
+
+#bar{
+    position: relative;
+    top: -10px;
+    left: -10px;
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#superior{
+    display: flex;
+    margin: auto;
+}
+
+#superior li{
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+li a{
+    text-decoration: none;
+
+}
+
+#title{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px #a474a5;
+    
+}
+
+#subtitle{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+p{
+    margin:5% ;
+}
+
+
+#formulario{
+    margin: 10%;
+    border: 50px;
+    padding: 50px;
+    background-color: rgba(255, 228, 196, 0.123);
+    text-align: center;
+}
+
+/* asd */
+
+input{
+    
+    border: 70px;
+    margin: 5px ;
+}
+label{
+    font-size: large;
+    font-style: italic;
+}
+input[type="checkbox"]{
+    padding: 500px;
+    width: 50px;
+}
+input[type="radio"]{
+    padding: 500px;
+    width: 50px;
+}
+
+
+
+#under{
+    position: relative;
+    bottom: 0px;
+    left: -10px;
+
+    background-color: #f3f3f3;
+    padding: 10px;
+    width: 100%;
+}

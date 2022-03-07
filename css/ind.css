@@ -1,0 +1,117 @@
+body{
+    background: radial-gradient(circle, #a474a5, #f3f3f3);
+    
+}
+
+#bar{
+    position: relative;
+    top: -10px;
+    left: -10px;
+    border: 1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#superior{
+    display: flex;
+    margin: auto;
+}
+
+#superior li{
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+li a{
+    text-decoration: none;
+
+}
+
+#title{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px #a474a5;
+    
+}
+
+.subtitle{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+p{
+    text-align: justify;
+}
+
+#super{
+    border: 10px dotted crimson;
+    padding: 8%;
+    margin: 5%;
+}
+
+img.portada{
+    width: 100%;
+    position: relative;
+    
+}
+
+.container{
+    display: flex;
+    font-size: 2em;
+}
+
+#sabores, #adornos{
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    margin: auto;
+}
+
+.logo{
+    margin: auto;
+    padding: 5%;
+    width: 90%;
+}
+
+#sabores li{
+    list-style: none;
+    max-width: 40%;
+}
+
+#adornos li{
+    list-style: none;
+    padding: 5px;
+}
+
+#under{
+    position: relative;
+    bottom: 0px;
+    left: -10px;
+
+    background-color: #f3f3f3;
+    padding: 10px;
+    width: 100%;
+}
+
+.galery-set{
+    display: float;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.4);
+}
+
+.galery{
+    width: 40%;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
