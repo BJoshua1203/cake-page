@@ -36,7 +36,7 @@ li a{
 #title{
     text-align: center;
     font-family: 'Pacifico', cursive;
-    font-size: 50px;
+    font-size: 65px;
     font-style: oblique;
     text-shadow: 2px 2px 2px #a474a5;
     
@@ -105,7 +105,8 @@ img.portada{
 .galery-set{
     display: float;
     text-align: center;
-    background-color: rgba(240, 248, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .galery{
